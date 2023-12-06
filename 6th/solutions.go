@@ -66,7 +66,7 @@ func SolveOne() {
 // time = totalTime - timePressed
 // distance = timePressed * (totalTime-timePress)
 // distance = timePressed*totalTime - timePress^2
-// xt - x^2 > 200
+// xt - x^2 > C
 // We can model the problem as a quadratic function
 // x^2−xt+C<0 where x is the time pressed, t is the total time, and C is the distance to beat
 func SolveTwo() {
